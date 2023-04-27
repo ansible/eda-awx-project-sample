@@ -7,5 +7,5 @@
     
     - name: print success
       ansible.builtin.debug:
-        msg: basic job completed
+        msg: basic job completed with {{ _fake_execution_time }} seconds of execution time
         
